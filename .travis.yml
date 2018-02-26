@@ -1,2 +1,9 @@
 language: node_js
 node_js: node
+deploy: mysterious-mountain-47787
+  provider: heroku
+  api_key:
+    secure: K9KXNoeN3jY5lJPGxvwa6FsOr7RMctVgrbofdp+qIy+4ix35NveyWJjFryDpHnleuwP6WOr72T4tfYK8Wf3mh91KRp/+uHOdUPxOB4Yteyn6Ay9mqobgqbvRRAvFETYZpA3NYNik0OXuLPUvexeC7PUoufdqdwVaOgiPJyD/HTztZtwtLKfpmEV9FgY5g2akWcWvrVYERC8vLVn8DWr1WdhaQ+NFkdDqnIjq8rCZMq/EHH/Vwom1/mEF+O28radFOFiIhIrptprWiq1J9iljlt2XSt5e9xStQqLgIrsPZQ5sr2byLgQ4SoZoMcuhDVeaUayo5CL+ltyIkDF0jDQ7YQpYqa+2YXdeqQEZ775pFgCDzekoj8sS+RL2zV3qqHx6Rof4KajXDtldQx7odYpWH+SesL3GV3TfIgfI28TNKZ3FBrDNiZX6U/JQIC2CSgeF18SytniV6LUgkPUkc3dEIkdl7NRrkc3nm6ZdrU55llXFRSh6SBpRTy01SeD230Q9mBXa9Fl5rwIFTKTt9+m0R0QW2HPcLVlYgKhAOu0zTmspns8y91wB8qPdtEudh41IJRCoOqgIPy4Mzlz6xEFebuRZ3FjpHwtjOfh1F458Bfke+ZWaYNb/Vq7ldfWZ6IkFz/uc8Fg+ptHFAVXRULHwvIEMb19K6q+h+5FxCD3S7eE=
+  app: node-shopping-list-integration-tests
+  on:
+    repo: jpquense/node-shopping-list-integration-tests
